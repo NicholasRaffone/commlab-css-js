@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/CRqJoRaVIKgea8ySXvbzJm19n7A=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13335435/NorthBroadSt_Landscape_1_M.Edlow.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.newgrid{
+    display: grid;
+    margin: 20px;
+    padding: 10px;
+    grid-template-columns: repeat(2, minmax(150px, max-content));;
+    gap: 10px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.newgrid > div{
+    min-height: 300px;
+    width: 300px;
+}
+
+.gridelem>img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
